@@ -11,7 +11,7 @@ type Props = {
 const UserCard = (props: Props) => {
 	return (
 		<div
-			className={` w-[360px] ${props.isSelect ? "bg-gradient-card" : "bg-gradient-radial"} cursor-pointer hover:opacity-70 rounded-lg p-2 m-3`}
+			className={`w-[360px] ${props.isSelect ? "bg-gradient-card" : "bg-gradient-radial"} cursor-pointer hover:opacity-70 rounded-lg p-2 m-3`}
 			onClick={props.onClick}
 		>
 			{/* headers */}

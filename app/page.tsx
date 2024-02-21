@@ -33,7 +33,7 @@ export default function Home() {
 			<h1 className="text-3xl font-semibold ml-2">Users Dashboard </h1>
 			{/* container */}
 			<div className="mx-6 flex">
-				<div className={`${isSelected ? "w-1/3" : "w-full"} w-fit h-fit`}>
+				<div className={`${isSelected ? "w-1/3" : "w-full"} h-fit`}>
 					<div className="flex flex-wrap w-full overflow-y-auto h-screen ">
 						{displayItems?.map((user, index) => (
 							<UserCard
