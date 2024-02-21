@@ -29,11 +29,11 @@ export default function Home() {
 	};
 	const isSelected = currentUser > 0;
 	return (
-		<main className="bg-gradient w-full">
+		<main className="w-full overflow-hidden">
 			<h1 className="text-3xl font-semibold ml-2">Users Dashboard </h1>
 			{/* container */}
-			<div className="mx-6 flex">
-				<div className={`${isSelected ? "w-1/3" : "w-full"} h-fit`}>
+			<div className="m-6 flex md:flex-row flex-col">
+				<div className={`${isSelected ? "lg:w-1/3" : "w-full"} w-full  h-fit`}>
 					<div className="flex flex-wrap w-full overflow-y-auto h-screen ">
 						{displayItems?.map((user, index) => (
 							<UserCard

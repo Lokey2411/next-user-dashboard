@@ -8,7 +8,7 @@ type Props = {} & User;
 
 const SectionUser = (props: Props) => {
 	return (
-		<div className="w-full bg-gray-200 p-2 rounded-lg mx-6">
+		<div className="w-full bg-gray-200 p-2 rounded-lg md:mx-6 overflow-hidden">
 			{/* headers */}
 			<div className="flex flex-col  w-full items-center border-b p-3 text-center">
 				<img
